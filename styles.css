@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto' ,sans-serif;
+}
+header{
+    background-image: url('arriere\ plan.avif'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    height: 500px;
+    
+}
+.navbar{
+    border: 1px solid #f39c12;
+    background-color: #f39c12;
+    margin-top: 10px;
+    margin: 30px;
+    border-radius: 5px;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+.nav-items li{
+    list-style-type: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-item{
+
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+ul img{
+    width: 30px;
+}
+button{
+    background-color: #f39c12;
+    color: #fff;
+    border: 1px solid #f39c12;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    
+    font-size: bold;
+}
+.button{
+    /* position: relative; */
+    /* left: 80%; */
+    /* right: 0; */
+    text-align: right;
+}
+
+.navbar{
+    /* position: relative; */
+}
+.spe{
+    background-color: #fff;
+    /* position: absolute;
+    top: 50%;
+    left: 50%; */
+    transform: translate(-50%,-50%);
+    margin-top: 300px;
+    height: 600px;
+    margin-left: 500px;
+    position: relative;
+    
+}
+#profile{
+    width: 20%;
+    height: 20%;
+    border-radius: 80%;  
+}
+.img{
+    
+}
