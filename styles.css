@@ -3,84 +3,82 @@
     padding: 0;
     margin: 0;
 }
-body{
-    font-family: 'Roboto' ,sans-serif;
+.content{
+    background-image: url('photo-computer.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    position: relative;
 }
-header{
-    background-image: url('arriere\ plan.avif'); 
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    height: 500px;
+.white{
     
+    background-color:#fff ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    height: 500px;
+    margin-top: 200px;
 }
-.navbar{
-    border: 1px solid #f39c12;
-    background-color: #f39c12;
-    margin-top: 10px;
-    margin: 30px;
-    border-radius: 5px;
+#profile{
+    position: absolute;
+    bottom: 300px;
+    left: 230px;
 }
-
+.white img{
+    width: 70%;
+    height: 30%;
+    border-radius: 70%;
+}
+.white h1,h2,p{
+    text-align: center;
+}
+.white h2{
+    color: #f39c12;
+}
+ul li{
+    color: #fff;
+    list-style-type: none;
+}
 .nav-items{
     display: flex;
     justify-content: space-between;
-    padding: 40px;
+   
 }
-.nav-items li{
-    list-style-type: none;
-    color: #fff;
-    font-size: 20px;
-    font-weight: bold;
-}
-.nav-item{
-
+.navbar{
+    background-color: #f39c12;
+    padding: 20px;
+   
 }
 ul{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+    
 }
-ul img{
+#icon-message, #icon-call,#icone-adress{
+    width: 30%;
+}
+.p{
+    display: inline-block;
+    border: 1px solid #b2bec3;
     width: 30px;
+    height: 30px;
+    border: 1px solid #b2bec3;
+    border-radius: 40px;
+    background-color: #b2bec3;
 }
-button{
-    background-color: #f39c12;
-    color: #fff;
+.p:hover{
+    display: inline-block;
     border: 1px solid #f39c12;
-    border-radius: 5px;
-    width: 200px;
-    height: 50px;
-    
-    font-size: bold;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #b2bec3;
+    border-radius: 40px;
+    background-color:#f39c12;
 }
-.button{
-    /* position: relative; */
-    /* left: 80%; */
-    /* right: 0; */
-    text-align: right;
-}
-
-.navbar{
-    /* position: relative; */
-}
-.spe{
-    background-color: #fff;
-    /* position: absolute;
-    top: 50%;
-    left: 50%; */
-    transform: translate(-50%,-50%);
-    margin-top: 300px;
-    height: 600px;
-    margin-left: 500px;
-    position: relative;
-    
-}
-#profile{
-    width: 20%;
-    height: 20%;
-    border-radius: 80%;  
-}
-.img{
+#logo-pint,#logo-face,#logo-twitt,#logo-insta,#logo-link{
+    width: 20px;
+    height: 20px;
     
 }
