@@ -4,6 +4,25 @@
     margin: 0;
     font-family: "Poppins", serif;
 }
+img{
+    width: 100%;
+}
+#img1{
+    width: 100%;
+}
+
+.btn-download {
+    border: 1px solid #ffa600;
+    background-color: #ffa600;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 30px;
+   
+}
+.button{
+    text-align: right;
+}
  section{
 
    position: relative;
@@ -49,6 +68,7 @@ a{
 .res-sociaux{
     font-size: 20px;
     color: #fff;
+    
 }
 .circle-sociaux{
     display: inline-block;
@@ -89,6 +109,9 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
+}
+header img{
+    width: 100%;
 }
 .row{
     display: flex;
@@ -154,6 +177,7 @@ header{
     width: 20%;
 }
 #all{
+    display: flex;
     color: #FFAD01;
 }
 
@@ -339,7 +363,7 @@ width: 510px;
     font-size: 14px;
 }
 .droite h1{
-    color: #333333;
+    color: #fff;
     font-size: 20px;
 }
 /* .gauche2 h1{
@@ -364,9 +388,13 @@ ul li{
    position: relative;
     
 }
+.last img{
+    width: 100%;
+}
 .last-one{
     display: flex;
     justify-content: space-between;
+   
     gap: 80px;
     position: absolute;
     top: 50%;
@@ -450,13 +478,8 @@ ul li{
     font-size: 16px;
 
 }
-.footer{
-     background-color: #28023d;
-    height: 300px; 
-}
-.footer p{
-    color: #333333;
-}
+
+
 .circle-wrap{
     display: grid;
     grid-template-columns: repeat(1,160px);
@@ -536,11 +559,78 @@ ul li{
     z-index: 100;
     font-size: 2em;
     font-weight: 700;
-    color: black;
+    color: #777777;
     text-align: center;
 }
-.inside-circle p{
+.inside-circle h6{
     position: absolute;
-    font-size: 14px;
-    bottom: 10px;
+    font-size: 12px;
+    bottom: 8px;
+    right: 0;
+    left: 0;
 }
+.inside-circle h4,h6{
+    color: #333333;
+}
+.footer{
+    background-color: #28023d;
+    height: 100px; 
+   
+}
+#special{
+    color: #333333;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+}
+
+@media screen and  (max-width:1100px) {
+    .portfolio-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+  
+    .last-one{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 40px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+       
+    }
+    .last{
+        height: 400px;
+        color: #fff;
+        padding: 20px;
+       position: relative;
+        
+    }
+    .intro img{
+        width: 100%;
+    }
+    .part{
+       flex-wrap: wrap; 
+       gap: 0;
+    }
+     .all{
+        display: none;
+        overflow: hidden;
+    }
+    .text{
+        width: 400px;
+   
+    } 
+    .sec-one{
+        display: flex;
+        justify-self: center;
+        align-items: center;
+        gap: 100px;
+    }
+ 
