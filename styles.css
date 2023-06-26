@@ -18,6 +18,13 @@ img{
     text-decoration: none;
     color: #fff;
     margin-top: 30px;
+    transition-property: translate;
+    transition-duration: 2s;
+    
+   
+}
+.btn-download:hover {
+   transform: translateY(-50%);
    
 }
 .button{
